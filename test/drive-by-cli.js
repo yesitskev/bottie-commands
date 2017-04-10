@@ -45,6 +45,8 @@ class CommandParser {
     });
   }
 
+  // message is a string
+  // command is a command object where re is a RegExp and fn is a function.
   _handle(message, command) {
     var match = command.re.exec(message);
     if (!match) {
