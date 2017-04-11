@@ -1,7 +1,7 @@
 {
-  "name": "cmd-parser.js",
-  "version": "0.0.6",
-  "description": "Simple command parsing for line based protocols",
+  "name": "bottie-commands",
+  "version": "0.0.1",
+  "description": "Simple command manager for line based protocols",
   "main": "./src/index",
   "dependencies": {
 
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevelbreh/cmd-parser.js.git"
+    "url": "git+https://github.com/kevelbreh/bottie-commands.js.git"
   },
   "bugs": {
-    "url": "https://github.com/kevelbreh/cmd-parser.js/issues"
+    "url": "https://github.com/kevelbreh/bottie-commands/issues"
   },
   "scripts": {
 

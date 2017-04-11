@@ -1,4 +1,4 @@
-cmd-parser.js
+bottie-commands
 ==========
 
 A simple utility for managing user issued commands for simple line based message
@@ -14,11 +14,11 @@ Example Usage
 -------------
 
 ```javascript
-const cmdparser = require("cmd-parser.js")
-const Parser = new cmdparser.Parser();
+const bottiecommands = require("bottie-commands")
+const manager = new bottiecommands.CommandManager();
 
-parser.on("echo ([a-zA-Z0-9])", message => {
-  console.log(message)
+manager.register("echo ([a-zA-Z0-9])", (params, context) => {
+  console.log(params[0])
 });
 
 ```
@@ -29,7 +29,7 @@ Download
 Install using npm:
 
 ```
-npm install cmd-parser.js
+npm install bottie-commands
 ```
 
 License

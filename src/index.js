@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = {
-  Parser: require("./Parser"),
+  CommandManager: require("./CommandManager"),
   Command: require("./Command")
 };

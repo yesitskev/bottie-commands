@@ -1,9 +1,13 @@
-// Should be able to give usage feedback
-// Should be able to add custom validator on a command
-// Could be internal i guess.
+'use strict';
+
+/*
+  TODO: A command needs to have usage instructions.
+  TODO: A command needs to be able to override the command prefix.
+*/
 class Command {
+
   constructor(pattern, fn) {
-    this.re = new RegExp(pattern);
+    this.re = new RegExp(pattern, 'g');
     this.fn = fn;
   }
 
