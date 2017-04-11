@@ -1,6 +1,6 @@
 {
   "name": "cmd-parser.js",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simple command parsing for line based protocols",
   "main": "./src/index",
   "dependencies": {
