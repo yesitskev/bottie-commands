@@ -1,3 +1,4 @@
+const Command = require("./Command");
 
 // Declared and used a singleton
 class Parser {
