@@ -18,3 +18,5 @@ class Command {
     return this.fn;
   }
 }
+
+module.exports = Command;

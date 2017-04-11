@@ -28,3 +28,5 @@ class Parser {
     command.fn(match);
   }
 }
+
+module.exports = Parser;
