@@ -8,6 +8,16 @@ class CommandManager {
 
   constructor(options = {}) {
     this.commands = []
+
+    // Add a command for displaying information on help.
+    if (options.allow_help == true) {
+
+    }
+
+    // Add a command for querying the usage of a specific command.
+    if (options.allow_usage == true) {
+
+    }
   }
 
   register(pattern, fn) {
